@@ -60,8 +60,8 @@ function select_content($i, $tag, $trendingTags) {
 function fetch_parsely_trending_tags($atts)
 {
     // Parsely API credentials
-    $apiKey = 'americansongwriter.com';
-    $apiSecret = "Owe9gLAvJ4GLaH979o1lvGFOADyvvyYGhmRsYCgGVZ0";
+    $apiKey = 'Your PARSELY API KEY HERE';
+    $apiSecret = "Your PARSELY APi SECRET KEY HERE";
     $endpoint = 'https://api.parsely.com/v2';
     $siteUrl = get_site_url();
 
