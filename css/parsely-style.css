@@ -1,0 +1,109 @@
+.sidebar-widget {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-widget .widget-item {
+    display: flex;
+    width: 100%;
+    padding-bottom: 24px;
+    gap: 18px 
+}
+
+.sidebar-widget .widget-item>a {
+    display: block;
+    min-width: 90px !important;
+    height: 36px !important;
+}
+
+.sidebar-widget .widget-item>a img {
+    width: 100% !important;
+    height: 100% !important;
+}
+.recommended-posts .sidebar-widget .widget-item h3{
+    line-height: 0px;
+}
+.sidebar-widget .widget-item h3 {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.sidebar-widget .widget-item h3 a {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.sidebar-widget .widget-item h3 a:hover {
+    color: #d44f49;
+}
+
+.trending h3{
+    text-align: center;
+}
+
+.parsely-tag-section{
+    text-align: center;
+}
+
+.parsely-tag-section .parsely-tag-item {
+    display: inline-block; 
+    /* margin-right: 50px; */
+}
+
+.parsely-tag-section .parsely-tag-item h3 a {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.parsely-tag-section .parsely-tag-item h3 a:hover {
+    color: #d44f49;
+}
+
+
+
+
+@media (max-width : 480px){
+    body.single .sidebar-widget .widget-item{
+        flex-direction: column;
+    }
+    body.single .sidebar-widget .widget-item h3{
+        text-align: center;
+    }
+    body.single .sidebar-widget .widget-item>a{
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .sidebar-widget .widget-item>a img{
+             max-height: 140px;
+             width: 100% !important;
+             object-fit: cover;
+    }
+    .sidebar-widget .widget-item{
+        gap:8px;
+        padding-bottom: 20px;
+      }
+}
+
+@media (min-width : 480px){
+    .sidebar-widget .widget-item>a{
+        height: 54px !important;
+        max-width: 90px;
+    }
+        .sidebar-widget .widget-item>a img{
+        object-fit: cover;
+        object-position: center;
+    }
+}
