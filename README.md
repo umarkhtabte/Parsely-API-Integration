@@ -22,7 +22,7 @@ To use the plugin, you can add the shortcodes to your WordPress pages or posts. 
 
 To use the plugin, you need to replace the Parsely API keys in the following files:
 
-- `parsely-api-integration.php`: Replace the `$apiKey` and `$apiSecret` variables with your own Parsely API credentials.
+- `parsely Files`: Replace the `$apiKey` and `$apiSecret` variables with your own Parsely API credentials.
 
 ## Contributing
 
@@ -34,4 +34,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or contributions, please reach out to [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or contributions, please reach out to [umarkhtab.te@gmail.com](mailto:umarkhtab.te@gmail.com).
