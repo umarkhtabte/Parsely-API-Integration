@@ -3,7 +3,7 @@
 Plugin Name: Parsely API Integration
 Description: This plugin is used to get data from Parsely API, for Recommendation Posts [personalized_sidebar_widget], Top Trending Posts "[parsely_trending_posts offset=0 limit=8]", and Trending Tags [parsely_trending_tags].
 Version: 1.0
-Author: Faisal Sarfraz
+Author: Umar Khtab
 */
 
 // Add CSS file for parsely widget
