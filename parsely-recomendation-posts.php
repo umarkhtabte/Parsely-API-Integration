@@ -39,8 +39,8 @@ function fetch_personalized_related_content($uuid, $url, $apiKey, $apiSecret, $e
         global $post;
     
         // Parsely API credentials
-        $apiKey = 'americansongwriter.com';
-        $apiSecret = "Owe9gLAvJ4GLaH979o1lvGFOADyvvyYGhmRsYCgGVZ0";
+        $apiKey = 'Your PARSELY API KEY HERE';
+        $apiSecret = "Your PARSELY APi SECRET KEY HERE";
         $endpoint = 'https://api.parsely.com/v2';
     
         // user ID or create/update a cookie for non-logged-in users
@@ -56,22 +56,6 @@ function fetch_personalized_related_content($uuid, $url, $apiKey, $apiSecret, $e
         // Check if it's a single post page
         if (is_single()) {
             ?>
-    <script>
-    function moveSecondarySection() {
-        const commect_section = document.querySelector('body.single #comments');
-        const secondary_section = document.querySelector('body.single .single-p-sidebar');
-        if (window.innerWidth <= 480) {
-            commect_section.append(secondary_section);
-        } else {
-            const originalLocation = document.querySelectorAll('body.single .g1-column.g1-column-2of3')[1];
-            originalLocation.insertAdjacentElement('afterend', secondary_section);
-        }
-    }
-    moveSecondarySection();
-    window.addEventListener('resize', () => {
-        moveSecondarySection();
-    });
-    </script>
     <?php
             $url = get_permalink($post->ID);
     
