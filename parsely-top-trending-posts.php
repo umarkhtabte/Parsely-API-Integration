@@ -39,8 +39,8 @@ function fetch_top_posts_content($apiKey, $apiSecret, $endpoint, $offset, $limit
         );
 
         // Parsely API credentials
-        $apiKey = 'americansongwriter.com';
-        $apiSecret = "Owe9gLAvJ4GLaH979o1lvGFOADyvvyYGhmRsYCgGVZ0";
+        $apiKey = 'Your PARSELY API KEY HERE';
+        $apiSecret = "Your PARSELY APi SECRET KEY HERE";
         $endpoint = 'https://api.parsely.com/v2';
             ?>
     <script>
