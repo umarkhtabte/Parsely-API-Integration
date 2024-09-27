@@ -6,6 +6,9 @@ Version: 1.0
 Author: Umar Khtab
 */
 
+
+//Umar Khtab 
+// die;
 // Add CSS file for parsely widget
 function enqueue_parsely_widget_style() {
     // Check if it's a single post page
